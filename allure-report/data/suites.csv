@@ -1,3 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat May 11 20:06:42 IST 2024","Sat May 11 20:06:53 IST 2024","11334","chromium","homeStorageState.spec.ts","Storage state validation","","","Verify Login success",""
-"passed","Sat May 11 20:06:53 IST 2024","Sat May 11 20:07:03 IST 2024","9529","chromium","homeStorageState.spec.ts","Storage state validation","","","Verify Home page",""
+"passed","Mon May 20 21:46:06 BST 2024","Mon May 20 21:46:12 BST 2024","6217","chromium","homeStorageState.spec.ts","Storage state validation","","","Verify Login success","This test attempts to log into the website using a login and a password. Fails if any error happens.
+
+Note that smoke test"
+"passed","Mon May 20 21:46:12 BST 2024","Mon May 20 21:46:17 BST 2024","5499","chromium","homeStorageState.spec.ts","Storage state validation","","","Verify Home page",""

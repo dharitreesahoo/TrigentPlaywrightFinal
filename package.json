@@ -18,29 +18,25 @@
     "test:record": "npx playwright codegen",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "lint-fix": "eslint . --fix"
+    "lint-fix": "eslint . --fix",
+    "generateAllure": "npx allure generate ./allure-results --clean && allure open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@eslint/js": "^9.2.0",
     "@playwright/test": "^1.44.0",
     "@types/config": "^3.3.4",
     "@types/node": "^20.12.7",
     "allure-playwright": "^2.15.1",
     "cross-env": "^7.0.3",
     "csv-parse": "^5.3.5",
-    "eslint": "^8.57.0",
-    "eslint-plugin-playwright": "^1.6.0",
     "fs": "^0.0.1-security",
     "globals": "^15.2.0",
     "install": "^0.13.0",
-    "lint-staged": "^15.2.2",
     "npm": "^10.7.0",
     "playwright": "^1.43.1",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.8.0",
     "xlsx": "^0.18.5"
   },
   "dependencies": {
@@ -48,6 +44,7 @@
     "config": "^3.3.9",
     "dotenv": "^16.0.3",
     "eslint-config-prettier": "^9.1.0",
+    "os": "^0.1.2",
     "prettier": "^3.2.5"
   }
 }

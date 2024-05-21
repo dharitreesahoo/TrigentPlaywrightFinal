@@ -1,1 +1,161 @@
-{"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","name":"timeline","children":[{"name":"TSLC1755","children":[{"name":"TSLC1755-77416-playwright-worker-0","children":[{"name":"Verify Login success","uid":"3c6c52b111443551","parentUid":"7cbde27860e28bcf424d1b78c53ec0f4","status":"passed","time":{"start":1715438202364,"stop":1715438213698,"duration":11334},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]},{"name":"Verify Home page","uid":"b805224bd4d318da","parentUid":"7cbde27860e28bcf424d1b78c53ec0f4","status":"passed","time":{"start":1715438213708,"stop":1715438223237,"duration":9529},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]}],"uid":"7cbde27860e28bcf424d1b78c53ec0f4"}],"uid":"d8d66c9151864eba78c07523032f5d93"}]}
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-G8GFJBLE",
+    "children" : [ {
+      "name" : "LAPTOP-G8GFJBLE-36740-playwright-worker-0",
+      "children" : [ {
+        "name" : "Verify Home page",
+        "uid" : "6e2ffa39dae0b3aa",
+        "parentUid" : "aa88a38303503c53a050fa6c6a5697e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716236306948,
+          "stop" : 1716236312836,
+          "duration" : 5888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Verify Login success",
+        "uid" : "c2be4b51f19b8e20",
+        "parentUid" : "aa88a38303503c53a050fa6c6a5697e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716236301049,
+          "stop" : 1716236306944,
+          "duration" : 5895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "aa88a38303503c53a050fa6c6a5697e1"
+    }, {
+      "name" : "LAPTOP-G8GFJBLE-41752-playwright-worker-0",
+      "children" : [ {
+        "name" : "Verify Home page",
+        "uid" : "578f4388d9076344",
+        "parentUid" : "3aaaed34680ffc276483d7a62d7b77ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716237627751,
+          "stop" : 1716237633241,
+          "duration" : 5490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Verify Login success",
+        "uid" : "d1987b37ba07cb8f",
+        "parentUid" : "3aaaed34680ffc276483d7a62d7b77ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716237621907,
+          "stop" : 1716237627748,
+          "duration" : 5841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "3aaaed34680ffc276483d7a62d7b77ee"
+    }, {
+      "name" : "LAPTOP-G8GFJBLE-37976-playwright-worker-0",
+      "children" : [ {
+        "name" : "Verify Login success",
+        "uid" : "673e01c6318b733c",
+        "parentUid" : "6b9c44023825c4f4ce9fcfc9e04b77c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716237966067,
+          "stop" : 1716237972284,
+          "duration" : 6217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Verify Home page",
+        "uid" : "a715ba38251f75a9",
+        "parentUid" : "6b9c44023825c4f4ce9fcfc9e04b77c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716237972286,
+          "stop" : 1716237977785,
+          "duration" : 5499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "6b9c44023825c4f4ce9fcfc9e04b77c3"
+    }, {
+      "name" : "LAPTOP-G8GFJBLE-23468-playwright-worker-0",
+      "children" : [ {
+        "name" : "Verify Home page",
+        "uid" : "d0f6d565232259a2",
+        "parentUid" : "855029aa12fdee3388b1bd99338999c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716237456444,
+          "stop" : 1716237462148,
+          "duration" : 5704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Verify Login success",
+        "uid" : "6790a2f8e84dda51",
+        "parentUid" : "855029aa12fdee3388b1bd99338999c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716237450954,
+          "stop" : 1716237456440,
+          "duration" : 5486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "855029aa12fdee3388b1bd99338999c5"
+    } ],
+    "uid" : "371852bafc8bee937dd3da0578678ecf"
+  } ]
+}

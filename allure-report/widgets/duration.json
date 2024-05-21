@@ -1,1 +1,21 @@
-[{"uid":"3c6c52b111443551","name":"Verify Login success","time":{"start":1715438202364,"stop":1715438213698,"duration":11334},"status":"passed","severity":"normal"},{"uid":"b805224bd4d318da","name":"Verify Home page","time":{"start":1715438213708,"stop":1715438223237,"duration":9529},"status":"passed","severity":"normal"}]
+[ {
+  "uid" : "673e01c6318b733c",
+  "name" : "Verify Login success",
+  "time" : {
+    "start" : 1716237966067,
+    "stop" : 1716237972284,
+    "duration" : 6217
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a715ba38251f75a9",
+  "name" : "Verify Home page",
+  "time" : {
+    "start" : 1716237972286,
+    "stop" : 1716237977785,
+    "duration" : 5499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

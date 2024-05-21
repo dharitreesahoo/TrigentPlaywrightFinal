@@ -1,6 +1,4 @@
 {
-  "files.autoSave": "afterDelay",
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "cSpell.words": ["HOMEURL"]
+  "files.autoSave": "afterDelay"
 }
+

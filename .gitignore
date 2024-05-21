@@ -4,5 +4,8 @@ user-states/
 local.*
 /config/local
 downloads/
+allure-results/
+allure-report/
+my-report/
 
 
