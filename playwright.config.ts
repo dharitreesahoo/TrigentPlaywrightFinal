@@ -18,7 +18,7 @@ const config: PlaywrightTestConfig = {
     timeout: 20000,
   },
   use: {
-    headless: false,
+    headless: true,
     actionTimeout: 0,
     trace: 'retain-on-failure',
     ignoreHTTPSErrors: true,
