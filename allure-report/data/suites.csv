@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon May 20 21:46:06 BST 2024","Mon May 20 21:46:12 BST 2024","6217","chromium","homeStorageState.spec.ts","Storage state validation","","","Verify Login success","This test attempts to log into the website using a login and a password. Fails if any error happens.
+"passed","Tue May 21 11:05:19 BST 2024","Tue May 21 11:05:25 BST 2024","6080","chromium","Dharitree Allure ","SubSuite","","","Verify Home page",""
+"passed","Tue May 21 11:05:13 BST 2024","Tue May 21 11:05:19 BST 2024","5937","chromium","Dharitree Allure ","SubSuite","","","Verify Login success","This test attempts to log into the website using a login
 
 Note that smoke test"
-"passed","Mon May 20 21:46:12 BST 2024","Mon May 20 21:46:17 BST 2024","5499","chromium","homeStorageState.spec.ts","Storage state validation","","","Verify Home page",""

@@ -4,18 +4,18 @@
   "children" : [ {
     "name" : "chromium",
     "children" : [ {
-      "name" : "homeStorageState.spec.ts",
+      "name" : "Dharitree Allure ",
       "children" : [ {
-        "name" : "Storage state validation",
+        "name" : "SubSuite",
         "children" : [ {
           "name" : "Verify Login success",
-          "uid" : "673e01c6318b733c",
-          "parentUid" : "11f83bf76020f32aa1448a3bf2971df7",
+          "uid" : "3f377b0cbcfdfd38",
+          "parentUid" : "17c8e8b2153513b8ee4256b72481b378",
           "status" : "passed",
           "time" : {
-            "start" : 1716237966067,
-            "stop" : 1716237972284,
-            "duration" : 6217
+            "start" : 1716285913403,
+            "stop" : 1716285919340,
+            "duration" : 5937
           },
           "flaky" : false,
           "newFailed" : false,
@@ -26,13 +26,13 @@
           "parameters" : [ "chromium" ]
         }, {
           "name" : "Verify Home page",
-          "uid" : "a715ba38251f75a9",
-          "parentUid" : "11f83bf76020f32aa1448a3bf2971df7",
+          "uid" : "ded1da59c137cd7e",
+          "parentUid" : "17c8e8b2153513b8ee4256b72481b378",
           "status" : "passed",
           "time" : {
-            "start" : 1716237972286,
-            "stop" : 1716237977785,
-            "duration" : 5499
+            "start" : 1716285919342,
+            "stop" : 1716285925422,
+            "duration" : 6080
           },
           "flaky" : false,
           "newFailed" : false,
@@ -42,9 +42,9 @@
           "retriesStatusChange" : false,
           "parameters" : [ "chromium" ]
         } ],
-        "uid" : "11f83bf76020f32aa1448a3bf2971df7"
+        "uid" : "17c8e8b2153513b8ee4256b72481b378"
       } ],
-      "uid" : "bbe4c46538feae65b5ac29daacc4f501"
+      "uid" : "0f37f497d31ac59bf8ebfe65ab9ae299"
     } ],
     "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
   } ]

@@ -19,7 +19,7 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
-    "generateAllure": "npx allure generate ./allure-results --clean && allure open"
+    "generateAllure": "npx allure generate --clean && allure open"
   },
   "keywords": [],
   "author": "",

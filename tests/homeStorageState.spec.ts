@@ -7,6 +7,8 @@ import { Severity } from "allure-js-commons";
 test.describe(`Storage state validation`, () => {
   test.use({ storageState: `user-states/internalUserStorageState.json` });
 test.beforeEach(async ({ loginPage, page }) => {
+  allure.suite("Dharitree Allure ")
+  allure.subSuite("SubSuite")
   console.log('Logged into Environment >>>>>', ENV.BASE_URL);
   await page.goto(ENV.BASE_URL);
 });
@@ -17,7 +19,7 @@ test(
   async ({  orangeAppPage }) => {
     await test.step('Verify Login', async () => {
       await allure.description(
-        "This test attempts to log into the website using a login and a password. Fails if any error happens.\n\nNote that smoke test",
+        "This test attempts to log into the website using a login\n\nNote that smoke test",
       );
       await allure.owner("John Doe");
       await allure.tags("NewUI", "Essentials", "Authentication");
@@ -43,7 +45,7 @@ test(
     async ({  orangeAppPage }) => {
       //await loginPage.loginToApp();
       await test.step('Verify Home page', async () => {
-      await expect(orangeAppPage.elements.searchBar).toBeVisible();
+      await expect.soft(orangeAppPage.elements.searchBar).toBeVisible();
       await orangeAppPage.elements.searchBar.fill('Leave');
       await orangeAppPage.elements.mainItemDropdown.click();
       await expect(orangeAppPage.elements.liveListLabel).toHaveText('Leave List');

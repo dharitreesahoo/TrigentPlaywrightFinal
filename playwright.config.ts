@@ -13,7 +13,7 @@ const config: PlaywrightTestConfig = {
   testMatch: ['tests/homeStorageState.spec.ts'],
   retries: 0,
   workers: 3,
-  reporter: [['dot'],['allure-playwright'], ['html', { outputFolder: 'my-report', open: 'never' }]],
+  reporter: [['dot'],['allure-playwright',{ detail:false,outputFolder: 'allure-results',suiteTitle:false}], ['html', { outputFolder: 'my-report', open: 'never' }]],
   expect: {
     timeout: 20000,
   },

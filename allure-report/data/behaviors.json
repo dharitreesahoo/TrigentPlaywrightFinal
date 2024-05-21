@@ -3,13 +3,13 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Verify Login success",
-    "uid" : "673e01c6318b733c",
+    "uid" : "3f377b0cbcfdfd38",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1716237966067,
-      "stop" : 1716237972284,
-      "duration" : 6217
+      "start" : 1716285913403,
+      "stop" : 1716285919340,
+      "duration" : 5937
     },
     "flaky" : false,
     "newFailed" : false,
@@ -20,13 +20,13 @@
     "parameters" : [ "chromium" ]
   }, {
     "name" : "Verify Home page",
-    "uid" : "a715ba38251f75a9",
+    "uid" : "ded1da59c137cd7e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1716237972286,
-      "stop" : 1716237977785,
-      "duration" : 5499
+      "start" : 1716285919342,
+      "stop" : 1716285925422,
+      "duration" : 6080
     },
     "flaky" : false,
     "newFailed" : false,
