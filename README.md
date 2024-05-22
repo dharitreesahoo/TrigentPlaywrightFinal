@@ -21,5 +21,11 @@ https://www.youtube.com/watch?v=ViAZRHxwCnQ&list=PL3IwAics3J0cNvzVp4M6mfuF14lFu9
 # Slack integration with jenkins
 https://www.youtube.com/watch?v=4rP39-pWvR4&list=PL3IwAics3J0f0TZrzczUrpOHkrza0mE8E&index=4
 
+# Shrading the report
+* https://github.com/JoanEsquivel/playwright-test/blob/main/tests/parameters.spec.js
+* 
+# yml file for sharding in playwright
+https://github.com/executeautomation/Playwright2023/blob/main/playwright.config.ts
+
 
 

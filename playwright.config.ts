@@ -13,8 +13,8 @@ const config: PlaywrightTestConfig = {
   testMatch: ['tests/parallelTest/*.spec.js'],
   retries: 0,
   workers: 3,
-  reporter: process.env.CI ? 'blob' : 'html',
-  //reporter: [['dot'], ['allure-playwright', { detail: false, outputFolder: 'allure-results', suiteTitle: false }], ['html', { outputFolder: 'my-report', open: 'never' }]],
+  //reporter: process.env.CI ? 'blob' : 'html',
+  reporter: [['dot'], ['blob'], ['allure-playwright', { detail: false, outputFolder: 'allure-results', suiteTitle: false }], ['html', { open: 'never' }]],
   expect: {
     timeout: 20000,
   },
