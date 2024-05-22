@@ -16,5 +16,5 @@ steps:
 - script: |
     npm install
     npx playwright install
-    npm run test:chromium:test:allure
+    xvfb-run npm run test:chromium:test:allure
   displayName: 'npm install and build'
