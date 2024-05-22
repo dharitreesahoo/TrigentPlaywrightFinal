@@ -10,13 +10,15 @@ const config: PlaywrightTestConfig = {
   //grep:/@smoke|@regression/,
   testDir: 'tests',
   timeout: 30 * 1000,
-  testMatch: ['tests/homeStorageState.spec.ts'],
+  testMatch: ['tests/parallelTest/*.spec.js'],
   retries: 0,
   workers: 3,
-  reporter: [['dot'],['allure-playwright',{ detail:false,outputFolder: 'allure-results',suiteTitle:false}], ['html', { outputFolder: 'my-report', open: 'never' }]],
+  reporter: process.env.CI ? 'blob' : 'html',
+  //reporter: [['dot'], ['allure-playwright', { detail: false, outputFolder: 'allure-results', suiteTitle: false }], ['html', { outputFolder: 'my-report', open: 'never' }]],
   expect: {
     timeout: 20000,
   },
+
   use: {
     headless: true,
     actionTimeout: 0,
@@ -30,43 +32,43 @@ const config: PlaywrightTestConfig = {
       slowMo: 500,
     },
   },
-projects: [
-  {
-    name: 'chrome',
-    use: { ...devices['Desktop Chrome'],channel:'chrome' },
-  },
-  {
-    name: 'Microsoft Edge',
-    use: { ...devices['Desktop Chrome'],channel:'msedge' },
-  },
-  {
-    name: 'chromium',
-    use: { ...devices['Desktop Chrome'] },
-  },
-  {
-    name: 'firefox',
-    use: { ...devices['Desktop Firefox'] },
-  },
-  {
-    name: 'webkit',
-    use: { ...devices['Desktop Safari'] },
-  },
-  {
-    name: 'Pixel-5',
-    use: {
-      browserName: 'chromium',
-      ...devices['Pixel 5'],
+  projects: [
+    {
+      name: 'chrome',
+      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     },
-  },
-  {
-    name: 'iPhone-12',
-    use: {
-      browserName: 'webkit',
-      ...devices['iPhone 12'],
+    {
+      name: 'Microsoft Edge',
+      use: { ...devices['Desktop Chrome'], channel: 'msedge' },
     },
-  },
-],
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] },
+    },
+    {
+      name: 'webkit',
+      use: { ...devices['Desktop Safari'] },
+    },
+    {
+      name: 'Pixel-5',
+      use: {
+        browserName: 'chromium',
+        ...devices['Pixel 5'],
+      },
+    },
+    {
+      name: 'iPhone-12',
+      use: {
+        browserName: 'webkit',
+        ...devices['iPhone 12'],
+      },
+    },
+  ],
 
- };
+};
 
 export default config;
