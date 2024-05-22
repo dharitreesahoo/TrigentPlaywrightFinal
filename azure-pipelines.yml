@@ -10,12 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '10.x'
-  displayName: 'Install Node.js'
+- checkout: self
+  displayName: 'Checkout repo'
 
 - script: |
     npm install
-    npm run build
+    npx playwright install
+    npm run test:chromium:test:allure
   displayName: 'npm install and build'
