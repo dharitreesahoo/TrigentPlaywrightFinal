@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue May 21 11:05:19 BST 2024","Tue May 21 11:05:25 BST 2024","6080","chromium","Dharitree Allure ","SubSuite","","","Verify Home page",""
-"passed","Tue May 21 11:05:13 BST 2024","Tue May 21 11:05:19 BST 2024","5937","chromium","Dharitree Allure ","SubSuite","","","Verify Login success","This test attempts to log into the website using a login
-
-Note that smoke test"
