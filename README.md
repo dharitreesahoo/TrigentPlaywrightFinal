@@ -17,7 +17,9 @@ gitLens
 vscode icon
 # How to check the npm updated packages in the project and update them
 https://www.youtube.com/watch?v=ViAZRHxwCnQ&list=PL3IwAics3J0cNvzVp4M6mfuF14lFu9Xll
-# 
+
+# Slack integration with jenkins
+https://www.youtube.com/watch?v=4rP39-pWvR4&list=PL3IwAics3J0f0TZrzczUrpOHkrza0mE8E&index=4
 
 
 
