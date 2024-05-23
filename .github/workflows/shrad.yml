@@ -22,8 +22,9 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run headless Playwright test
+        uses: coactions/setup-xvfb@v1
         with:
-          run: xvfb-run npm run test:chromium:test --shard ${{ matrix.shard }}
+          run: npm run test:chromium:test --shard ${{ matrix.shard }}
           continue-on-error: true
       - name: Generate Allure report
         run: |
