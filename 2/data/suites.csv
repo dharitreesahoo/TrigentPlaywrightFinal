@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu May 23 07:44:39 GMT 2024","Thu May 23 07:44:39 GMT 2024","152","chromium","","","","","parallel - TF #1 - TC #4",""
-"passed","Thu May 23 07:44:39 GMT 2024","Thu May 23 07:44:39 GMT 2024","133","chromium","","","","","parallel - TF #1 - TC #2",""
-"passed","Thu May 23 07:44:39 GMT 2024","Thu May 23 07:44:39 GMT 2024","303","chromium","","","","","parallel - TF #1 - TC #1",""
-"passed","Thu May 23 07:44:39 GMT 2024","Thu May 23 07:44:39 GMT 2024","131","chromium","","","","","parallel - TF #1 - TC #3",""
+"passed","Thu May 23 17:45:58 GMT 2024","Thu May 23 17:46:03 GMT 2024","4761","chromium","Dharitree Allure ","SubSuite","","","Verify Login success","This test attempts to log into the website using a login
+
+Note that smoke test"
+"passed","Thu May 23 17:46:03 GMT 2024","Thu May 23 17:46:08 GMT 2024","4998","chromium","Dharitree Allure ","SubSuite","","","Verify Home page",""
