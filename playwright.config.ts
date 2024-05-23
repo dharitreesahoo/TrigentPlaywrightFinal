@@ -14,7 +14,7 @@ const config: PlaywrightTestConfig = {
   retries: 0,
   workers: 3,
   //reporter: process.env.CI ? 'blob' : 'html',
-  reporter: [['dot'], ['blob'], ['allure-playwright', { detail: false, outputFolder: 'allure-results', suiteTitle: false }], ['html', { open: 'never' }]],
+  reporter: [['dot'], ['blob'], ['allure-playwright', { detail: false, outputFolder: 'allure-results', suiteTitle: false }], ['html', { outputFolder: 'my-report', open: 'never' }]],
   expect: {
     timeout: 20000,
   },

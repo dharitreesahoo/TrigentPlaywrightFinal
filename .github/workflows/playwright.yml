@@ -29,12 +29,6 @@ jobs:
           name: playwright-report
           path: my-report/
           retention-days: 30
-      - name: Get Allure history
-        uses: actions/checkout@v3
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
+
 
       
