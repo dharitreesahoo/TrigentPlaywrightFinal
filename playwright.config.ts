@@ -31,6 +31,10 @@ const config: PlaywrightTestConfig = {
     launchOptions: {
       slowMo: 500,
     },
+    // httpCredentials: {
+    //   username: 'admin',
+    //   password: 'admin'
+    // },
   },
   projects: [
     {

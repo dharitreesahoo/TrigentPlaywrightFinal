@@ -27,5 +27,10 @@ https://www.youtube.com/watch?v=4rP39-pWvR4&list=PL3IwAics3J0f0TZrzczUrpOHkrza0m
 # yml file for sharding in playwright
 https://github.com/executeautomation/Playwright2023/blob/main/playwright.config.ts
 
+# Handling dynamic drop down
+https://www.youtube.com/watch?v=biWrSIgMJLY
+
+
+
 
 
