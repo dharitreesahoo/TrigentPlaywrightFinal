@@ -19,6 +19,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+      - name: Cache Java
+        id: cache-java
+        uses: actions/cache@v3
+        with:
+         path: 'c:\hostedtoolcache\windows\Java_Microsoft_jdk\17.0.3\x64'
+         key: ${{ runner.os }}-jdk-17.0.3
+         restore-keys: ${{ runner.os }}-jdk-17.0.3
+
+      - name: Install Java
+        if: ${{steps.cache-java.outputs.cache-hit != 'true'}} # condition to check if old installation is available in cache
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'microsoft'
+          java-version: '17'
+          architecture: 'x64'
+         
+      - name: Verify Java installation
+        run: |
+          echo "java version:"
+          java -version
+
       - name: Install dependencies
         run: npm ci
       - name: Run your tests
