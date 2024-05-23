@@ -27,6 +27,7 @@ jobs:
     container:
       image: mcr.microsoft.com/playwright:v1.44.0-jammy
     steps:
+        run: echo "deploy to >>>>>>>>>>>>${{ github.event.inputs.environment }}"
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
