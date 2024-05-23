@@ -10,7 +10,7 @@ const config: PlaywrightTestConfig = {
   //grep:/@smoke|@regression/,
   testDir: 'tests',
   timeout: 30 * 1000,
-  testMatch: ['tests/parallelTest/**.spec.js'],
+  testMatch: ['tests/homeStorageState.spec.ts'],
   retries: 0,
   workers: 3,
   //reporter: process.env.CI ? 'blob' : 'html',
