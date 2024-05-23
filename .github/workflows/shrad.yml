@@ -24,7 +24,7 @@ jobs:
       - name: Run headless Playwright test
         uses: coactions/setup-xvfb@v1
         with:
-          run: npm run test:chromium:test --shard ${{ matrix.shard }}
+          run: xvfb-run npm run test:chromium:test --shard ${{ matrix.shard }}
           continue-on-error: true
       - name: Generate Allure report
         run: |
@@ -33,8 +33,8 @@ jobs:
       - uses: actions/upload-artifact@v3
         if: always()
         with:
-          name: playwright-report
-          path: playwright-report/
+          name: my-report
+          path: my-report/
           retention-days: 30
       - uses: actions/upload-artifact@v3
         if: always()
