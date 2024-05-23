@@ -13,8 +13,9 @@ const config: PlaywrightTestConfig = {
   testMatch: ['tests/homeStorageState.spec.ts'],
   retries: 0,
   workers: 3,
+  //when execute in CI its blob and when executing locally it html
   //reporter: process.env.CI ? 'blob' : 'html',
-  reporter: [['dot'], ['blob'], ['allure-playwright', { detail: false, outputFolder: 'allure-results', suiteTitle: false }], ['html', { outputFolder: 'my-report', open: 'never' }]],
+  reporter: [['list', { printSteps: true }], ['blob'], ['allure-playwright', { detail: false, outputFolder: 'allure-results', suiteTitle: false }], ['html', { outputFolder: 'my-report', open: 'never' }]],
   expect: {
     timeout: 20000,
   },

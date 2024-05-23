@@ -10,6 +10,8 @@ https://github.com/gits5213/playwrightAPIAutomationSuite/blob/master/playwright.
 https://www.youtube.com/watch?v=M3jw47nKHpw&t=364s
 # Best Automation Practices
 https://www.youtube.com/watch?v=pKVYGU7Xf7Q&list=PL3IwAics3J0eAx5UZOKdlofLdtMUjS-g0
+https://www.youtube.com/watch?v=76enLvqIQ_Q&list=PLul1O5xZFLa2SmsVPI10dx23xbIUrGFNl&index=7
+
 # VScode extensions and other features
 https://www.youtube.com/watch?v=h6NGKBX7rFM&list=PL3IwAics3J0dwxdpjH88df2tVV39RaMdT
 # Extensions for vscode
@@ -29,6 +31,15 @@ https://github.com/executeautomation/Playwright2023/blob/main/playwright.config.
 
 # Handling dynamic drop down
 https://www.youtube.com/watch?v=biWrSIgMJLY
+
+# Reports types in playwright
+https://www.youtube.com/watch?v=2l6QLkjz4GE
+
+# WAIT types for playwright 
+https://www.youtube.com/watch?v=aoMc28cWxQg&list=PLul1O5xZFLa2SmsVPI10dx23xbIUrGFNl&index=12
+
+# API test framework 
+https://github.com/rajatt95/TestAutomationFramework_YT_Rajat_API_Playwright_JS/blob/main/.github/workflows/02_api_tests_select_env.yml
 
 
 
