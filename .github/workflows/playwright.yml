@@ -34,9 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Run your tests
-        run: echo "executing in>>>>>>> ${{ github.event.inputs.environment }} environment"
         run: xvfb-run npm run test:chromium:test
-
+      -name: display env
+        run: echo "executing in>>>>>>> ${{ github.event.inputs.environment }} environment"
       - uses: actions/upload-artifact@v3
         if: always()
         with:
