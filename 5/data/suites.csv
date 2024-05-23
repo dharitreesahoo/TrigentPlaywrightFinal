@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu May 23 17:42:01 GMT 2024","Thu May 23 17:42:06 GMT 2024","4931","chromium","Dharitree Allure ","SubSuite","","","Verify Home page",""
-"passed","Thu May 23 17:41:56 GMT 2024","Thu May 23 17:42:01 GMT 2024","4892","chromium","Dharitree Allure ","SubSuite","","","Verify Login success","This test attempts to log into the website using a login
+"passed","Thu May 23 17:55:03 GMT 2024","Thu May 23 17:55:08 GMT 2024","4752","chromium","Dharitree Allure ","SubSuite","","","Verify Login success","This test attempts to log into the website using a login
 
 Note that smoke test"
+"passed","Thu May 23 17:55:08 GMT 2024","Thu May 23 17:55:13 GMT 2024","5132","chromium","Dharitree Allure ","SubSuite","","","Verify Home page",""
