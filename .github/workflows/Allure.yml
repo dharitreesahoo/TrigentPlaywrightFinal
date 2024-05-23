@@ -53,3 +53,26 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+      
+      - name: Generate Allure report
+        run: |
+          npm install -D allure-commandline
+          npx allure generate ./allure-results --clean
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: allure-report
+          path: allure-report/
+          retention-days: 30
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: all-blob-reports
+          path: blob-report
+          retention-days: 1
