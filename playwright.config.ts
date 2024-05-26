@@ -40,14 +40,17 @@ const config: PlaywrightTestConfig = {
   projects: [
     {
       name: 'chrome',
+      //grep:/@smoke|@cart/,
       use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     },
     {
       name: 'Microsoft Edge',
+      //grep:/@smoke|@bill/,
       use: { ...devices['Desktop Chrome'], channel: 'msedge' },
     },
     {
       name: 'chromium',
+      //grep:/@smoke|@bill/,
       use: { ...devices['Desktop Chrome'] },
     },
     {
