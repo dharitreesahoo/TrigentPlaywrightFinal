@@ -41,6 +41,12 @@ https://www.youtube.com/watch?v=aoMc28cWxQg&list=PLul1O5xZFLa2SmsVPI10dx23xbIUrG
 # API test framework 
 https://github.com/rajatt95/TestAutomationFramework_YT_Rajat_API_Playwright_JS/blob/main/.github/workflows/02_api_tests_select_env.yml
 
+# Netlify CLI option
+https://www.youtube.com/watch?v=1Z-TC6FA4Bc&list=PLf8vT0W16iNOSuqbyHR8DsQ3n1gqnt_fa&index=7
+
+# latest playwright concept
+https://www.youtube.com/@Test-Rover-Automation
+
 
 
 
